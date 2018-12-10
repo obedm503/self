@@ -1,11 +1,9 @@
 if (typeof self === "undefined") {
   (function() {
-    var g;
-    if (typeof global !== "undefined") {
-      g = global;
-    } else {
-      g = Function("return this")();
-    }
-    g.self = g;
+    var self = typeof global !== "undefined" 
+      ? global 
+      : Function("return this")();
+
+    self.self = self;
   })();
 }
