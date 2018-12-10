@@ -1,6 +1,6 @@
 {
   "name": "@obedm503/self",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "just use self. adds self to environments that don't already have it.",
   "main": "index.js",
   "keywords": [

@@ -8,7 +8,7 @@ This package was inspired by @pluma's comments [here](https://github.com/tc39/pr
 
 ```js
 // universal js code
-require('self');
+require('@obedm503/self');
 
 self.console.log(self.self === self); // true
 ```
