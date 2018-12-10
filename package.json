@@ -1,5 +1,5 @@
 {
-  "name": "self",
+  "name": "@obedm503/self",
   "version": "1.0.0",
   "description": "just use self. adds self to environments that don't already have it.",
   "main": "index.js",
